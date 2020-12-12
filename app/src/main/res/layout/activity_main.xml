@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleY="1.1"
+        android:src="@drawable/skull" />
+
+
+    <Button
+        android:id="@+id/buttonNotify"
+        android:text="Click Here"
+        android:layout_centerHorizontal="true"
+        android:translationY="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="                 Enter Text"
+
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#F5F3F3"
+        android:textColorHint="#F8F6F6"
+        android:textSize="18sp"
+        android:translationY="100dp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+</RelativeLayout>
